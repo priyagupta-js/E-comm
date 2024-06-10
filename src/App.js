@@ -1,9 +1,11 @@
-
+import React from "react";
+import {ReactDOM} from "react-dom/client";
+import Header from "../src/components/Header";
 
 function App() {
   return (
     <div className="App">
-    E-comm project
+    <Header />
     </div>
   );
 }
