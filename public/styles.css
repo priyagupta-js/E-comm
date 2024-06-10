@@ -2,3 +2,14 @@
     margin:0;
     padding: 0;
 }
+
+header {
+    background-color: rgb(1, 6, 60);
+    margin: auto;
+    padding: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+header h1{
+    color: #fff;
+}

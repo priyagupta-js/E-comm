@@ -5,7 +5,9 @@ import Button from 'react-bootstrap/Button';
 function Header (){
     return(
         <header>
-        Header
+        <>
+        <h1>Logo</h1>
+        </>
         </header>
     )
 }
