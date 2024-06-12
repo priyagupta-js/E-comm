@@ -1,16 +1,16 @@
 import React from "react";
-import { ReactDOM } from "react-dom/client";
 import { Col, Container, Row, Button, Form } from "react-bootstrap";
 import InputGroup from "react-bootstrap/InputGroup";
 
 function Header() {
   return (
-    <header>
+    <header className="menu-bar">
       <Container>
         <Row>
           <Col>
             <h1>Logo</h1>
           </Col>
+          {/*    
           <Col>
             <Button variant="outline-info">Info</Button>
           </Col>
@@ -32,6 +32,7 @@ function Header() {
           <Col>
             <Button>Cart</Button>
           </Col>
+*/}
         </Row>
       </Container>
     </header>
