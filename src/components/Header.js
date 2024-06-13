@@ -7,32 +7,32 @@ function Header() {
     <header className="menu-bar">
       <Container>
         <Row>
-          <Col>
+          <Col className="logo">
             <h1>Logo</h1>
           </Col>
-          {/*    
-          <Col>
-            <Button variant="outline-info">Info</Button>
+          <Col className="location-div">
+            <span className="location">
+              <b>Delivering in 15 minutes </b>
+              <br />
+              Ranchi, Jharkhand, India
+            </span>
           </Col>
-          <Col>
-            <InputGroup size="sm" className="mb-3">
-              <InputGroup.Text id="inputGroup-sizing-sm">Small</InputGroup.Text>
+          <Col xs={4} className="search-bar">
+            <InputGroup className="mb-3">
+              <InputGroup.Text id="basic-addon1" className="search">@</InputGroup.Text>
               <Form.Control
-                aria-label="Small"
-                aria-describedby="inputGroup-sizing-sm"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="basic-addon1"
               />
             </InputGroup>
           </Col>
-          <Col>
-            <Button variant="outline-info">EN</Button>
+          <Col xs={2}className="btn-main">
+          <span className="btn-login">Login</span>
           </Col>
-          <Col>
-          <Button variant="outline-info">sign-in</Button>
+          <Col className="btnCart-main">
+            <Button className="btn-cart">Cart</Button>
           </Col>
-          <Col>
-            <Button>Cart</Button>
-          </Col>
-*/}
         </Row>
       </Container>
     </header>
