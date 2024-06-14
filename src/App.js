@@ -1,4 +1,5 @@
 import React from "react";
+import '@fortawesome/fontawesome-free/css/all.css';
 import {ReactDOM} from "react-dom/client";
 import Header from "../src/components/Header";
 import Home from "./components/Home";
