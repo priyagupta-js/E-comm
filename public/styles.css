@@ -102,5 +102,12 @@ body{
 .btn-shop{
     background-color:rgb(255, 255, 255) !important;
     border: none !important;
-    color: rgb(114, 183, 95) !important ;
+    color: rgb(1, 118, 1) !important ;
+    font-weight: 600;
+}
+.dairy-container{
+    margin-bottom: 20px;
+}
+.dairy-container h2{
+    margin: 45px 26px;
 }

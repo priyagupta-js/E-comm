@@ -1,7 +1,9 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
+import Dairy from "./products/Dairy";
 function Home() {
   return (
+    <>
     <div className="card-container">
       <div className="card-body">
         <div className="heading">
@@ -13,6 +15,8 @@ function Home() {
         <Button className="btn-shop" variant="primary">Shop Now</Button>
       </div>
     </div>
+    <Dairy />
+    </>
   );
 }
 
