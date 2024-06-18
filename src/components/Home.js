@@ -1,7 +1,11 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import products from "../components/products/products.js";
 import Dairy from "./products/Dairy";
+
 function Home() {
+
+  // console.log(props);
   return (
     <>
     <div className="card-container">
@@ -15,7 +19,20 @@ function Home() {
         <Button className="btn-shop" variant="primary">Shop Now</Button>
       </div>
     </div>
-    <Dairy />
+<div><h2>Dairy ,Breads & Eggs</h2></div>
+    <Dairy 
+      img={products[0].imgURL}
+      alt={products[0].alt}
+      name={products[0].product_Name}
+      rupees={products[0].rupees}
+      price={products[0].price}
+    />
+     <Dairy 
+      img={products[1].imgURL}
+      alt={products[1].alt}
+      name={products[1].product_Name}
+      price={products[1].price}
+    />
     </>
   );
 }

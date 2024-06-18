@@ -1,36 +1,34 @@
 import React from "react";
-import ReactCardSlider from 'react-card-slider-component';
+// import ReactCardSlider from 'react-card-slider-component';
+// import amul from "../../../public/assets/amul_cheese";
+// import products from "./products";
 
-function Dairy (){
-  const slides = [
-    {
-      image:"../../../src/assets/bread_slice.png" ,
-      title:"Amul Pure Milk Cheese Slices",
-      quantity : "200g" ,
-      Price : "₹ 141",
-      button : "Add",
-    }
-  ]
+
+function Dairy (props){
     return(
-      <div className="dairy-container">
-          <h2>Dairy ,Breads & Eggs</h2>
-          <div>
+      // <div className="dairy-container">
+      <div className="card">
+      <div className="image"> 
+        <img src={props.img} alt={props.alt} />
+        </div>
+        <div className="title">
+        <p>{props.name}</p>
+        </div>
+        <div className="quantity">
+        <p>{props.weight}</p>
+        </div>
+        <div className="price">
+        <p>{props.rupees}{props.price}</p>
+        </div>
+        <div className="Cart">
+          <button>{"Add to cart"}</button>
+        </div>
 
-<ReactCardSlider slides={slides}/>
-          </div>
-      </div>  
+      </div>
+          
+      /* </div>   */
     );
     }
-
-    const slides = [
-      {image:"../../../src/assets/bread_slice.png",title:"This is a title",description:"This is a description"},
-      {image:"",title:"This is a second title",description:"This is a second description"},
-      {image:"",title:"This is a third title",description:"This is a third description"},
-      {image:"",title:"This is a fourth title",description:"This is a fourth description"},
-      {image:"",title:"This is a fifth title",description:"This is a fifth description"},
-      {image:"",title:"This is a sixth title",description:"This is a sixth description"},
-      {image:"",title:"This is a seventh title",description:"This is a seventh description"},
-  ]
   
 
 export default Dairy ;
