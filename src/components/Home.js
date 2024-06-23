@@ -51,6 +51,12 @@ function Home() {
       name={products[4].product_Name}
       price={products[4].price}
     />
+    <Dairy 
+      img={products[5].imgURL}
+      alt={products[5].alt}
+      name={products[5].product_Name}
+      price={products[5].price}
+    />
     </>
   );
 }

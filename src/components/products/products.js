@@ -36,6 +36,15 @@ const products =[
         discounted_price :"null",
         rupees:"₹"
     },
+    {
+        imgURL:"../../../src/components/assets/amul_cheese.png",
+        alt:"Amul Cheese",
+        product_Name:"Amul Cheese",
+        weight :"1 lb",
+        price:"80",
+        discounted_price :"null",
+        rupees:"₹"
+    },
 ];
 
 export default products;
