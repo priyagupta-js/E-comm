@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import Header from "../components/Header.js"
+// import Header from "src/components/Header.js";
 import products from "../components/products/products.js";
 import Dairy from "./products/Dairy";
 
@@ -8,6 +10,7 @@ function Home() {
   // console.log(props);
   return (
     <>
+    <Header />
     <div className="card-container">
       <div className="card-body">
         <div className="heading">
