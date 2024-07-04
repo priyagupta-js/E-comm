@@ -1,9 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import Header from "../components/Header.js"
-// import Header from "src/components/Header.js";
 import products from "../components/products/products.js";
-import Dairy from "./products/Dairy";
+import Dairy from "../components/products/Dairy";
 
 function Home() {
 

@@ -3,7 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 // import {ReactDOM} from "react-dom/client";
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./components/Home";
+import Home from "./Pages/Home";
 
 function App() {
   return (
